@@ -1,4 +1,4 @@
-// Change date here to see whats yours
+
 const realDate = "1 JANUARY 2023";
 
 const realDays = document.getElementById("days");
