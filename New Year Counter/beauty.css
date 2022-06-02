@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=DM+Sans&family=Hind+Siliguri:wght@300;400&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@200;300&family=Signika+Negative:wght@300&family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Catamaran", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Main heading */
+.heading {
+  font-size: 4.4rem;
+  color: aliceblue;
+}
+
+/* Container --contains days hours mins n seconds */
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  border-radius: 13px;
+  color: aliceblue;
+}
+
+.container > .countdown {
+  font-size: 1.9rem;
+  text-align: center;
+  text-transform: capitalize;
+  text-align: center;
+  color: aliceblue;
+  padding: 0px 48px;
+  user-select: none;
+}
+
+/* Number edit */
+.container > .countdown > .big-text {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+/* footer */
+footer {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 3.5%;
+}
